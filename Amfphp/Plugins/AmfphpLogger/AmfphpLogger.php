@@ -21,7 +21,7 @@
  */
 class AmfphpLogger {
 
-    const LOG_FILE_PATH = 'amfphplog.log';
+    const LOG_FILE_PATH = '/var/log/app_amfphp.log';
 
     /**
      * constructor.
@@ -30,10 +30,10 @@ class AmfphpLogger {
     public function __construct(array $config = null) {
         $filterManager = Amfphp_Core_FilterManager::getInstance();
 
-        $filterManager->addFilter(Amfphp_Core_Gateway::FILTER_SERIALIZED_REQUEST, $this, 'filterSerializedRequest');
+        //$filterManager->addFilter(Amfphp_Core_Gateway::FILTER_SERIALIZED_REQUEST, $this, 'filterSerializedRequest');
         $filterManager->addFilter(Amfphp_Core_Gateway::FILTER_DESERIALIZED_REQUEST, $this, 'filterDeserializedRequest');
         $filterManager->addFilter(Amfphp_Core_Gateway::FILTER_DESERIALIZED_RESPONSE, $this, 'filterDeserializedResponse');
-        $filterManager->addFilter(Amfphp_Core_Gateway::FILTER_SERIALIZED_RESPONSE, $this, 'filterSerializedResponse');
+        //$filterManager->addFilter(Amfphp_Core_Gateway::FILTER_SERIALIZED_RESPONSE, $this, 'filterSerializedResponse');
     }
 
     /**
