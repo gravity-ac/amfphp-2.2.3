@@ -1,4 +1,5 @@
 {
+    "name": "silexlabs/amfphp",
     "repositories": [
         {
             "type": "vcs",
