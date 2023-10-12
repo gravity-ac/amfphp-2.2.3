@@ -2,10 +2,10 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/gravity-ac/amfphp-2.2.3"
+            "url": "https://github.com/gravity-ac/amfphp-custom"
         }
     ],
     "require": {
-        "amfphp-2.2.3/amfphp-2.2.3": "dev-bugfix"
+        "amfphp-custom/amfphp-custom": "dev-2.2.3"
     }
 }
