@@ -1,13 +1,11 @@
 {
-    "name": "silexlabs/amfphp",
-    "description": "Simple Remoting for Web Applications",
-    "authors": [
+    "repositories": [
         {
-            "name": "Ariel Sommeria",
-            "email": "ariel@silexlabs.org" 
+            "type": "vcs",
+            "url": "https://github.com/gravity-ac/amfphp-2.2.3"
         }
     ],
-    "autoload": {
-        "files": ["Amfphp/ClassLoader.php"]
+    "require": {
+        "amfphp-2.2.3/amfphp-2.2.3": "dev-bugfix"
     }
 }
