@@ -1,5 +1,4 @@
 {
-    "name": "silexlabs/amfphp",
     "repositories": [
         {
             "type": "vcs",
@@ -7,6 +6,6 @@
         }
     ],
     "require": {
-        "amfphp-custom/amfphp-custom": "dev-2.2.3"
+        "silexlabs/amfphp": "dev-2.2.3"
     }
 }
