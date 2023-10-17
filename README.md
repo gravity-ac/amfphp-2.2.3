@@ -7,6 +7,7 @@
 **Uncomment and set log location here:**
 
 amfphp/Plugins/AmfphpLogger/AmfphpLogger.php
+
 //const LOG_FILE_PATH = '/var/log/amfphp.log';
 
 MAKE SURE LOG FILE EXISTS OR AMFPHP WILL FAIL
