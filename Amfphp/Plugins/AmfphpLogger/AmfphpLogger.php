@@ -21,7 +21,7 @@
  */
 class AmfphpLogger {
 
-    const LOG_FILE_PATH = '/var/log/app_amfphp.log';
+    const LOG_FILE_PATH = '/var/log/amfphp.log';
 
     /**
      * constructor.
