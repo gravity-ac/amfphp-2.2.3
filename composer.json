@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "silexlabs/amfphp"
+        "silexlabs/amfphp": "dev-2.2.3"
     }
 }
