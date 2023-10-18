@@ -6,7 +6,6 @@
             "url": "https://github.com/gravity-ac/amfphp-custom"
         }
     ],
-    "require": {
-        "silexlabs/amfphp": "dev-2.2.3"
-    }
+    "autoload": {
+    "files": ["Amfphp/ClassLoader.php"]
 }
