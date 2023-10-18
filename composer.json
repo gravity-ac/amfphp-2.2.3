@@ -8,4 +8,5 @@
     ],
     "autoload": {
     "files": ["Amfphp/ClassLoader.php"]
+    }
 }
